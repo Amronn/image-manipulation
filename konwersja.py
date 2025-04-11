@@ -35,8 +35,8 @@ def process_image(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_image_path = "obrazek2.jpg"  # Ścieżka do obrazu wejściowego
-    output_text_path = "obraz.txt"  # Ścieżka do pliku wynikowego
+    input_image_path = "obrazek2.jpg"
+    output_text_path = "obraz.txt"
     
     process_image(input_image_path, output_text_path)
     print("Proces zakończony. Zapisano wynik do:", output_text_path)
